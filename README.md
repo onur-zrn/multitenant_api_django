@@ -19,7 +19,7 @@ A Django REST Framework application with PostgreSQL schema-based multi-tenancy.
 git clone <repository-url>
 cd multitenant_api
 ```
-
+Important Note: If you want to run the program locally, the host setting in .env and multitenant_project/settings.py should be changed to localhost, and the database settings should be configured.
 ### 2. Environment Setup
 
 Create `.env` file:

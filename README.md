@@ -1,4 +1,4 @@
-"""
+
 # Multi-Tenant Django REST API
 
 A Django REST Framework application with PostgreSQL schema-based multi-tenancy.
@@ -298,4 +298,3 @@ docker-compose exec db psql -U postgres -d multitenant_db -c "SELECT schema_name
 docker-compose down -v
 docker-compose up -d
 ```
-"""   
